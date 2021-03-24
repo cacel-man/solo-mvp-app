@@ -1,5 +1,6 @@
 <template>
-    <div class="allphoto">
+    <div class="allemotion">
+        <p class = 'logo'>hello</p>
         <img id='chill' src="https://i.pinimg.com/originals/0f/16/4a/0f164ad53bad03a52b390d2d523cdd5a.jpg" @click="setFilter1"/>
         <p># chill</p>
         <img id='happy' src="https://i.pinimg.com/originals/80/48/61/8048614a6d05dae3ae05a891072177a6.jpg" @click="setFilter2">
@@ -44,3 +45,28 @@ export default {
     }
 }
 </script>
+<style scoped>
+div {
+    margin: 0 auto;
+}
+.logo {
+    -webkit-box-align: center;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f81a55;
+    align-items: center;
+}
+p {
+  color: white;
+  font-weight: 200;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: .02em;
+  text-align: center;
+}
+</style>

@@ -47,6 +47,9 @@ export default {
 </script>
 
 <style>
+div {
+  margin: 0 auto;
+}
 body {
   background-color: black;
 }
@@ -65,10 +68,7 @@ img {
   height: 200px;
 }
 
-p {
-  color: white;
-  font-weight: 200;
-}
+
 </style>
   
   
