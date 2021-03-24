@@ -2,7 +2,7 @@
     <div>
         <youtube :video-id="theYt" />
         <div id="resetbtn" @click="reset">
-            HOME
+            HOME!
         </div>
     </div>
         
