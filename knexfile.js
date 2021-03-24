@@ -1,4 +1,7 @@
 // Update with your config settings.
+const parse = require("pg-connection-string").parse;
+const pgconfig = parse(process.env.DATABASE_URL);
+pgconfig.ssl = { rejectUnauthorized: false };
 
 module.exports = {
 
@@ -15,7 +18,7 @@ module.exports = {
 
   production: {
     client: 'pg',
-    connection: process.env.DATABASE_URL,
+    connection: pgconfig,
     migrations: {
       directory: './db/migrations'
     },
