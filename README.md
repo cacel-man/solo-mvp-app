@@ -35,7 +35,7 @@ yarn build
 yarn lint
 ```
 ## その他
-###参考記事
+### 参考記事
 https://qiita.com/norton0209/items/ba3e46342a0dbed065e2
 
 
