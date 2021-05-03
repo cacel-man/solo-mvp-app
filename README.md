@@ -6,7 +6,7 @@ This was developed during our time as students at Code Chrysalis.
 
 ## installation
 npm install vue-youtube
-# or 
+or 
 yarn add vue-youtube
 
 ## Project setup
